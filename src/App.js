@@ -15,9 +15,9 @@ function App(props) {
     }
   }
 
-  useEffect(() => {
-    dispatch(fetchData())
-  }, [props.objectId, dispatch])
+  //useEffect(() => {
+   // dispatch(fetchData())
+  //}, [props.objectId, dispatch])
 
 
   return (
